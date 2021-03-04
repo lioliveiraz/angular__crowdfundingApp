@@ -1,0 +1,11 @@
+
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+  .content{
+      background:rgb(34, 34, 34);
+      overflow: hidden;
+  }
+
+  a{color:white}

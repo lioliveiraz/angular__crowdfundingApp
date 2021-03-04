@@ -1,0 +1,29 @@
+.welcome--main{
+    height: 100vh;
+    background-size: cover;
+    color:white;
+  
+
+}
+.welcome--backdrop{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.644);
+    display:flex;
+    align-items: center;
+    justify-content: left;
+}
+.welcome--content-left{
+
+    margin-left: 10%;
+    width: 60%;
+}
+h1{
+    font-size: 3rem;
+    line-height: 50px;
+
+}
+h2{
+    font-size: 1.5rem;
+}

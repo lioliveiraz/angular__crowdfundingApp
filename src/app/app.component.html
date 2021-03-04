@@ -1,0 +1,22 @@
+<header>
+  <nav>
+    <mat-toolbar color="secondary">
+      <button mat-button [matMenuTriggerFor]="menu">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <mat-menu #menu="matMenu">
+        <a [routerLink]="['project-list']"> <button mat-menu-item>Project List</button></a>
+        <button mat-menu-item>Create your project</button>
+      </mat-menu>
+      <span>PPD</span>
+      <span class="example-spacer"></span>
+
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+        <mat-icon>login</mat-icon>
+      </button>
+    </mat-toolbar>
+  </nav>
+</header>
+<section class="content">
+  <router-outlet></router-outlet>
+</section>
