@@ -13,7 +13,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatInputModule } from '@angular/material/input';
 import { DetailsComponent } from './details/details.component';
 
-
 @NgModule({
   declarations: [CardComponent, ProjectListComponent, FilterComponent, DetailsComponent],
   imports: [
@@ -27,7 +26,9 @@ import { DetailsComponent } from './details/details.component';
     MatFormFieldModule,
     FormsModule,
     ReactiveFormsModule,
-    MatInputModule
+    MatInputModule,
+
+
   ]
 })
 export class ProjectModule { }

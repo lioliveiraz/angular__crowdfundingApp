@@ -19,6 +19,12 @@ export class ProjectService {
             catchError(this.handleError)
         )
     }
+    getProjectById(id): Observable<IProject> {
+        return this.http.get<IProject>(`${this.url}?id=${id}`).pipe(
+            tap(data => JSON.stringify(data)),
+            catchError(this.handleError)
+        )
+    }
 
     private handleError(err: HttpErrorResponse) {
         let errorMessage = ''
