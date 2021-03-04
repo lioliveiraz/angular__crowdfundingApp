@@ -1,0 +1,17 @@
+<div class="filter">
+    <div class="filter--searchBar">
+        <mat-form-field hintLabel="Max 10 characters" appearance="fill">
+            <mat-label>Search by Name</mat-label>
+            <input matInput #input maxlength="20" placeholder="Search" [(ngModel)]='listFilter'
+                (ngModelChange)="filteringArrByName()">
+            <mat-hint align="end">{{input.value?.length || 0}}/20</mat-hint>
+        </mat-form-field>
+    </div>
+
+    <div class="filter--buttons">
+        <button mat-raised-button color="primary" (click)='sortingArrByGoal()' *ngIf="isHighest">Lowest goal</button>
+        <button mat-raised-button color="primary" (click)='sortingArrByGoal()' *ngIf="!isHighest">highest goal</button>
+
+    </div>
+
+</div>

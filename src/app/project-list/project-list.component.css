@@ -1,7 +1,0 @@
-.projectList--main{
-  height: 100vh;
-  overflow: scroll;
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-}

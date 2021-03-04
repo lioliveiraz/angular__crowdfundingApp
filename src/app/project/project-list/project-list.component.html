@@ -1,0 +1,15 @@
+<section class="projectList--main">
+    <div class="projectList--filter example-sidenav-content" *ngIf="showFiller">
+        <app-filter [isHighest]="isHighest" (sortByGoal)="sortByGoal()"
+            (filterProductByName)="filterProductByName($event)">
+        </app-filter>
+        <button (click)="showFiller = !showFiller" mat-button color="accent">Close</button>
+
+    </div>
+    <button (click)="showFiller = !showFiller" *ngIf="!showFiller" mat-raised-button>Filters</button>
+    <div class="projectList--projects">
+        <div *ngFor="let project of filteredProjects; let i = index">
+            <app-card [projectObj]='project'></app-card>
+        </div>
+    </div>
+</section>
