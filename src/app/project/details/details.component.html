@@ -1,3 +1,16 @@
-<section class="">
+<section class="details" *ngIf="project">
+    <h2>
+        {{project.name}}
+    </h2>
+    <p>{{project.creator}}</p>
+    <img src="../../assets/images/{{project.image}}" [alt]="project.name">
+    <p>{{project.description}}</p>
+    <p>{{project.date|date}}</p>
+
+    <p>{{project.goal|currency:"EUR"}}</p>
+    <p>{{project.donated|currency:"EUR"}}</p>
+
+    <button (click)="loadDonateComponent()" *ngIf="!isDonatedOpen">Donate</button>
+    <ng-template #donateComp></ng-template>
 
 </section>

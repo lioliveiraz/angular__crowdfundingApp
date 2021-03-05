@@ -12,9 +12,11 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatInputModule } from '@angular/material/input';
 import { DetailsComponent } from './details/details.component';
+import { DonateComponent } from './details/donate/donate.component';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 @NgModule({
-  declarations: [CardComponent, ProjectListComponent, FilterComponent, DetailsComponent],
+  declarations: [CardComponent, ProjectListComponent, FilterComponent, DetailsComponent, DonateComponent],
   imports: [
     CommonModule,
     ProjectRountingModule,
@@ -27,7 +29,7 @@ import { DetailsComponent } from './details/details.component';
     FormsModule,
     ReactiveFormsModule,
     MatInputModule,
-
+    MatSnackBarModule
 
   ]
 })

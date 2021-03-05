@@ -1,0 +1,7 @@
+<mat-form-field appearance="fill">
+    <mat-label>max value {{max}}</mat-label>
+    <input matInput type="number" class="example-right-align" [max]="max" [(ngModel)]="value">
+    <span matPrefix>€&nbsp;</span>
+    <span matSuffix>.00</span>
+</mat-form-field>
+<button (click)="handleSubmit()">Donate</button>

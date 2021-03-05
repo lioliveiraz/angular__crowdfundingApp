@@ -10,12 +10,17 @@
             <mat-card-subtitle>{{project.creator}}</mat-card-subtitle>
         </mat-card-header>
         <img mat-card-image src="../../assets/images/{{project.image}}" [alt]="project.name">
+
         <mat-card-content>
             <p>
                 {{project.description}}
             </p>
-            <mat-card-subtitle> goal: {{project.goal|currency:"EUR"}}</mat-card-subtitle>
-
+            <div *ngIf="project.goal!==project.donated">
+                <mat-card-subtitle> goal: {{project.goal|currency:"EUR"}}</mat-card-subtitle>
+            </div>
+            <div *ngIf="project.goal===project.donated">
+                <mat-card-subtitle> This project already achieved its goal</mat-card-subtitle>
+            </div>
         </mat-card-content>
         <mat-card-actions>
             <a [routerLink]="['/project-list',project.id]"><button mat-stroked-button

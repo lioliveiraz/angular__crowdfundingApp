@@ -1,64 +1,64 @@
 {
-    "projects": [
-        {
-            "id": 2,
-            "name": "Nullam convallis",
-            "goal": 250,
-            "donated": 250,
-            "creator": "Maria",
-            "image": "/placeholder.jpg",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam posuere gravida risus ac facilisis. Vestibulum eget quam porta, ultrices nisi sed, fermentum eros. Curabitur sed justo a lorem molestie mattis vitae in eros. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
-            "date": "2018-11-03"
-        },
-        {
-            "id": 3,
-            "name": "Nullam convallis",
-            "goal": 250,
-            "donated": 99,
-            "creator": "Jose",
-            "image": "/backgroundWelcome3.jpg",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam posuere gravida risus ac facilisis. Vestibulum eget quam porta, ultrices nisi sed, fermentum eros. Curabitur sed justo a lorem molestie mattis vitae in eros. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
-            "date": "2020-04-03"
-        },
-        {
-            "id": 4,
-            "name": " Fusce mattis",
-            "goal": 650,
-            "donated": 581,
-            "creator": "Ligia",
-            "image": "/backgroundWelcome2.jpg",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam posuere gravida risus ac facilisis. Vestibulum eget quam porta, ultrices nisi sed, fermentum eros. Curabitur sed justo a lorem molestie mattis vitae in eros. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
-            "date": "2020-08-03"
-        },
-        {
-            "id": 5,
-            "name": " Fusce mattis",
-            "goal": 650,
-            "donated": 308,
-            "creator": "Ligia",
-            "image": "/backgroundWelcome1.jpg",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam posuere gravida risus ac facilisis. Vestibulum eget quam porta, ultrices nisi sed, fermentum eros. Curabitur sed justo a lorem molestie mattis vitae in eros. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
-            "date": "2020-08-03"
-        },
-        {
-            "id": 7,
-            "name": "Aliquam non ultrices",
-            "goal": 750,
-            "donated": 0,
-            "creator": "Fernanda",
-            "image": "/placeholder.jpg",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam posuere gravida risus ac facilisis. Vestibulum eget quam porta, ultrices nisi sed, fermentum eros. Curabitur sed justo a lorem molestie mattis vitae in eros. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
-            "date": "2019-11-03"
-        },
-        {
-            "donated": 0,
-            "image": "/backgroundWelcome2.jpg",
-            "date": "2021-02-25",
-            "creator": "lioliveiraz",
-            "name": "ligia",
-            "goal": 247,
-            "description": "gdgr",
-            "id": 8
-        }
-    ]
+  "projects": [
+    {
+      "id": 2,
+      "name": "Nullam convallis",
+      "goal": 250,
+      "donated": 250,
+      "creator": "Maria",
+      "image": "/placeholder.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam posuere gravida risus ac facilisis. Vestibulum eget quam porta, ultrices nisi sed, fermentum eros. Curabitur sed justo a lorem molestie mattis vitae in eros. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      "date": "2018-11-03"
+    },
+    {
+      "id": 3,
+      "name": "Nullam convallis",
+      "goal": 250,
+      "donated": 150,
+      "creator": "Jose",
+      "image": "/backgroundWelcome3.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam posuere gravida risus ac facilisis. Vestibulum eget quam porta, ultrices nisi sed, fermentum eros. Curabitur sed justo a lorem molestie mattis vitae in eros. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      "date": "2020-04-03"
+    },
+    {
+      "id": 4,
+      "name": " Fusce mattis",
+      "goal": 650,
+      "donated": 581,
+      "creator": "Ligia",
+      "image": "/backgroundWelcome2.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam posuere gravida risus ac facilisis. Vestibulum eget quam porta, ultrices nisi sed, fermentum eros. Curabitur sed justo a lorem molestie mattis vitae in eros. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      "date": "2020-08-03"
+    },
+    {
+      "id": 5,
+      "name": " Fusce mattis",
+      "goal": 650,
+      "donated": 308,
+      "creator": "Ligia",
+      "image": "/backgroundWelcome1.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam posuere gravida risus ac facilisis. Vestibulum eget quam porta, ultrices nisi sed, fermentum eros. Curabitur sed justo a lorem molestie mattis vitae in eros. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      "date": "2020-08-03"
+    },
+    {
+      "id": 7,
+      "name": "Aliquam non ultrices",
+      "goal": 750,
+      "donated": 0,
+      "creator": "Fernanda",
+      "image": "/placeholder.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam posuere gravida risus ac facilisis. Vestibulum eget quam porta, ultrices nisi sed, fermentum eros. Curabitur sed justo a lorem molestie mattis vitae in eros. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      "date": "2019-11-03"
+    },
+    {
+      "donated": 0,
+      "image": "/backgroundWelcome2.jpg",
+      "date": "2021-02-25",
+      "creator": "lioliveiraz",
+      "name": "ligia",
+      "goal": 247,
+      "description": "gdgr",
+      "id": 8
+    }
+  ]
 }

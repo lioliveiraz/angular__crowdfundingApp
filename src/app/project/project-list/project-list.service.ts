@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { IProject } from './Interfaces/project.interface';
-import { HttpClient, HttpErrorResponse } from '@angular/common/http';
+import { HttpClient, HttpErrorResponse, HttpHeaders } from '@angular/common/http';
 import { Observable, throwError } from 'rxjs'
 import { catchError, tap } from 'rxjs/operators'
 
@@ -24,6 +24,13 @@ export class ProjectService {
             tap(data => JSON.stringify(data)),
             catchError(this.handleError)
         )
+    }
+    updateDonated(updatedProject: IProject): Observable<void> {
+        return this.http.put<void>(`${this.url}/${updatedProject.id}`, updatedProject, {
+            headers: new HttpHeaders({
+                'Content-Type': 'application/json'
+            })
+        })
     }
 
     private handleError(err: HttpErrorResponse) {
